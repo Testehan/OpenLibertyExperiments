@@ -1,3 +1,6 @@
-I followed the tutorial from https://openliberty.io/guides/rest-intro.html
+I followed the tutorial from:
+    https://openliberty.io/guides/rest-intro.html
+    https://openliberty.io/guides/cdi-intro.html
+    https://openliberty.io/guides/rest-client-java.html
 
 There are several runners that I created, based on that tutorial
