@@ -1,0 +1,122 @@
+[
+  {
+    "name" : "ACDC",
+    "albums" : [
+      {
+        "title" : "High Voltage",
+        "artist" : "ACDC",
+        "ntracks" : 8
+      },
+      {
+        "title" : "TNT",
+        "artist" : "ACDC",
+        "ntracks" : 9
+      },
+      {
+        "title" : "Dirty Deeds Done Dirt Cheap",
+        "artist" : "ACDC",
+        "ntracks" : 9
+      },
+      {
+        "title" : "Let There Be Rock",
+        "artist" : "ACDC",
+        "ntracks" : 8
+      },
+      {
+        "title" : "Powerage",
+        "artist" : "ACDC",
+        "ntracks" : 9
+      },
+      {
+        "title" : "Highway to Hell",
+        "artist" : "ACDC",
+        "ntracks" : 10
+      },
+      {
+        "title" : "Back in Black",
+        "artist" : "ACDC",
+        "ntracks" : 10
+      },
+      {
+        "title" : "For Those About to Rock We Salute You",
+        "artist" : "ACDC",
+        "ntracks" : 10
+      },
+      {
+        "title" : "The Razors Edge",
+        "artist" : "ACDC",
+        "ntracks" : 12
+      },
+      {
+        "title" : "Stiff Upper Lip",
+        "artist" : "ACDC",
+        "ntracks" : 12
+      },
+      {
+        "title" : "Black Ice ",
+        "artist" : "ACDC",
+        "ntracks" : 15
+      }
+    ]
+  },
+  {
+    "name" : "Metallica",
+    "albums" : [
+      {
+        "title" : "Kill 'Em All",
+        "artist" : "Metallica",
+        "ntracks" : 10
+      },
+      {
+        "title" : "Ride the Lightning",
+        "artist" : "Metallica",
+        "ntracks" : 8
+      },
+      {
+        "title" : "Master of Puppets",
+        "artist" : "Metallica",
+        "ntracks" : 8
+      },
+      {
+        "title" : "...And Justice for All",
+        "artist" : "Metallica",
+        "ntracks" : 9
+      },
+      {
+        "title" : "Metallica",
+        "artist" : "Metallica",
+        "ntracks" : 12
+      },
+      {
+        "title" : "Load",
+        "artist" : "Metallica",
+        "ntracks" : 14
+      },
+      {
+        "title" : "Reload",
+        "artist" : "Metallica",
+        "ntracks" : 13
+      },
+      {
+        "title" : "St. Anger",
+        "artist" : "Metallica",
+        "ntracks" : 11
+      },
+      {
+        "title" : "Death Magnetic",
+        "artist" : "Metallica",
+        "ntracks" : 10
+      },
+      {
+        "title" : "Hardwired... to Self-Destruct",
+        "artist" : "Metallica",
+        "ntracks" : 12
+      }
+    ]
+  },
+  {
+    "name" : "dj",
+    "albums" : [
+    ]
+  }
+]
