@@ -29,6 +29,9 @@ public class InventoryManager {
     @Inject
     @ConfigProperty(name = "default.http.port")
     private String DEFAULT_PORT;
+    @Inject
+    @ConfigProperty(name = "app.context.root")
+    private String contextRoot;
 
     @Inject
     @RestClient
@@ -72,7 +75,7 @@ public class InventoryManager {
     }
 
     private Properties getPropertiesWithGivenHostName(String hostname) {
-        String customURIString = "http://" + hostname + ":" + DEFAULT_PORT + "/OpenLibertyExperiments/system";
+        String customURIString = "http://" + hostname + ":" + DEFAULT_PORT + "/" + contextRoot + "/system";
         URI customURI = null;
         try {
             customURI = URI.create(customURIString);

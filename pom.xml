@@ -18,6 +18,7 @@
         <liberty.var.default.http.port>9080</liberty.var.default.http.port>
         <liberty.var.default.https.port>9443</liberty.var.default.https.port>
         <liberty.var.app.context.root>OpenLibertyExperiments</liberty.var.app.context.root>
+
     </properties>
 
     <build>
@@ -38,6 +39,7 @@
                 <configuration>
                     <systemPropertyVariables>
                         <http.port>${liberty.var.default.http.port}</http.port>
+                        <app.context.root>${liberty.var.app.context.root}</app.context.root>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>

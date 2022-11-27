@@ -16,6 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class ConsumintRestIT {
 
     private static String port;
+    private static String contextRoot;
     private static String baseUrl;
     private static String targetUrl;
 
@@ -25,7 +26,8 @@ public class ConsumintRestIT {
     @BeforeAll
     public static void oneTimeSetup() {
         port = System.getProperty("http.port"); // obtains the port from the pom file property http.port
-        baseUrl = "http://localhost:" + port + "/OpenLibertyExperiments/artists/";
+        contextRoot = System.getProperty("app.context.root");
+        baseUrl = "http://localhost:" + port + "/" + contextRoot + "/artists/";
         targetUrl = baseUrl + "total/";
     }
 

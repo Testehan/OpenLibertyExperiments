@@ -2,5 +2,12 @@ I followed the tutorial from:
     https://openliberty.io/guides/rest-intro.html
     https://openliberty.io/guides/cdi-intro.html
     https://openliberty.io/guides/rest-client-java.html
+    https://openliberty.io/guides/microprofile-rest-client.html
+    https://openliberty.io/guides/microprofile-openapi.html
+        TODO Continue with this tutorial
 
 There are several runners that I created, based on that tutorial
+
+If you want to run integration tests, you have 1 mvn runner that needs to contain failsafe:integration-test, or you can
+start the OpenLiberty server in dev mode, and then if you press enter in the console, it will run the tests automatically.
+(from what I noticed, you might need to press twice enter)
