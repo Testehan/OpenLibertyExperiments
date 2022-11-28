@@ -4,7 +4,7 @@ I followed the tutorial from:
     https://openliberty.io/guides/rest-client-java.html
     https://openliberty.io/guides/microprofile-rest-client.html
     https://openliberty.io/guides/microprofile-openapi.html
-        TODO Continue with this tutorial
+    https://openliberty.io/guides/rest-hateoas.html
 
 There are several runners that I created, based on that tutorial
 
