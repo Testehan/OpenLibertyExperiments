@@ -5,6 +5,18 @@ I followed the tutorial from:
     https://openliberty.io/guides/microprofile-rest-client.html
     https://openliberty.io/guides/microprofile-openapi.html
     https://openliberty.io/guides/rest-hateoas.html
+TODO    https://openliberty.io/guides/microprofile-rest-client-async.html       THIS guide needs docker also might needs "An installation of Apache Kafka is provided in another Docker container".
+    https://openliberty.io/guides/microprofile-graphql.html                     also needs docker
+    https://openliberty.io/guides/graphql-client.html                           also needs docker
+    https://openliberty.io/guides/microprofile-reactive-messaging.html          also needs docker
+    https://openliberty.io/guides/microprofile-reactive-messaging-rest-integration.html     also needs docker
+    https://openliberty.io/guides/microprofile-reactive-messaging-acknowledgment.html       also needs docker
+    https://openliberty.io/guides/reactive-rest-client.html                     also docker
+    https://openliberty.io/guides/reactive-messaging-sse.html                   docker
+
+    https://openliberty.io/guides/microprofile-config-intro.html
+
+
 
 There are several runners that I created, based on that tutorial
 
