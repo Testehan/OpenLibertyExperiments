@@ -1,4 +1,4 @@
-package com.testehan.openliberty.configIntro.displayCarTypes;
+package com.testehan.openliberty.configIntro;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;

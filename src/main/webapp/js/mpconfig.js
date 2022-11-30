@@ -18,5 +18,5 @@ request.onreadystatechange = function() {
         var flexContainer = document.getElementsByClassName("flexContainer")[0].innerHTML = "<h3 style='align:center;'>No car types could be retrieved</h3>";
     }
 };
-request.open("GET", "/inventory/carTypes", true);
+request.open("GET", "/OpenLibertyExperiments/inventory/carTypes", true);
 request.send();

@@ -1,4 +1,4 @@
-package com.testehan.openliberty.configIntro.obtainCarTypes;
+package com.testehan.openliberty.configIntro.rest;
 
 import com.testehan.openliberty.restClient.service.Reader;
 import jakarta.ws.rs.GET;
@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Scanner;
 
-@Path("carTypes")
+@Path("obtainCarTypes")
 public class ObtainCarTypes {
 
     @GET
