@@ -15,7 +15,7 @@ TODO    https://openliberty.io/guides/microprofile-rest-client-async.html       
     https://openliberty.io/guides/reactive-messaging-sse.html                   docker
 
     https://openliberty.io/guides/microprofile-config-intro.html
-
+    https://openliberty.io/guides/microprofile-config.html
 
 
 There are several runners that I created, based on that tutorial
