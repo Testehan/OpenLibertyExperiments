@@ -1,4 +1,5 @@
 I followed the tutorial from:
+    https://openliberty.io/guides/maven-intro.html
     https://openliberty.io/guides/rest-intro.html
     https://openliberty.io/guides/cdi-intro.html
     https://openliberty.io/guides/rest-client-java.html
@@ -15,7 +16,10 @@ TODO    https://openliberty.io/guides/microprofile-rest-client-async.html       
     https://openliberty.io/guides/reactive-messaging-sse.html                   docker
 
     https://openliberty.io/guides/microprofile-config-intro.html
-    https://openliberty.io/guides/microprofile-config.html
+    https://openliberty.io/guides/microprofile-config.html          there are some nice integration tests here; i skipped them for now because of time
+
+TODO    https://openliberty.io/guides/kubernetes-microprofile-config.html           this needs docker
+TODO    Fault tolerance, Observability   chapters
 
 
 There are several runners that I created, based on that tutorial
