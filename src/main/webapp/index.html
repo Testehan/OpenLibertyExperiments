@@ -9,11 +9,52 @@
         MicroProfile evolves with guidance from the community.
     </p>
     <br>
+<!--    <h2>-->
+<!--        <a href="loginForm.jsp">Login here</a> to see the login example.-->
+<!--    </h2>-->
     <br>
     <br>
     <h2>
         <a href="servlet">Click here</a> to get a greeting from the Hello Servlet.
     </h2>
+    <h2>
+        <a href="requestdispatcher">Redirect with RequestDispatcher</a> to go somewhere else.
+    </h2>
+    <h2>
+        <a href="redirect">Redirect</a> to go somewhere else.
+    </h2>
+    <h2>
+        <a href="redirectwithsession">Redirect with Session</a> to go somewhere else and transmit data via Session object.
+    </h2>
+    <h2>
+        <a href="redirectwithcookie">Redirect with Cookie</a> to go somewhere else and transmit data via Cookie object.
+    </h2>
+    <h2>
+        <a href="configservlet">Config servlet</a> to see a message with values configured in web.xml.
+    </h2>
+
+
+
+    <h3>Servlet handled form</h3>
+    <form action ="add" method="get">
+        Enter 1st number <input type="text" name="num1"> <br>
+        Enter 2nd number <input type="text" name="num2"> <br>
+        <input type="submit">
+    </form>
+
+    <h3>Jsp handled form</h3>
+    <form action ="add.jsp" method="get">
+        Enter 1st number <input type="text" name="num1"> <br>
+        Enter 2nd number <input type="text" name="num2"> <br>
+        <input type="submit">
+    </form>
+
+    <h3>Form that uses some Filters</h3>
+    <form action ="addAlien">
+        Alien ID <input type="text" name="aid"> <br>
+        Alien name <input type="text" name="aname"> <br>
+        <input type="submit">
+    </form>
 </div>
 </body>
 </html>
