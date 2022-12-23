@@ -26,9 +26,17 @@
     <h2>
         <a href="redirectwithsession">Redirect with Session</a> to go somewhere else and transmit data via Session object.
     </h2>
+    <p>Session object is available to all servlets, but only for one user using one browser. </p>
     <h2>
         <a href="redirectwithcookie">Redirect with Cookie</a> to go somewhere else and transmit data via Cookie object.
     </h2>
+    <h2>
+        <a href="servletcontextstoringservlet">VALUE stored in ServletContext</a> but only if sum parameter is provided + display last value provided.
+    </h2>
+    <p>By storing objects in ServletContext they are accessible to all servlets : "There is one context per "web application"
+        per Java Virtual Machine. (A "web application" is a collection of servlets and content installed under a specific subset
+        of the server's URL namespace such as /catalog and possibly installed via a .war file.)"
+        So ServletContext is available for all servlets and for all users</p>
     <h2>
         <a href="configservlet">Config servlet</a> to see a message with values configured in web.xml.
     </h2>
