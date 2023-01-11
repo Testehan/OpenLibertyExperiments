@@ -18,6 +18,8 @@ TODO    https://openliberty.io/guides/microprofile-rest-client-async.html       
 
     https://openliberty.io/guides/microprofile-config-intro.html
     https://openliberty.io/guides/microprofile-config.html          there are some nice integration tests here; i skipped them for now because of time
+    https://openliberty.io/guides/security-intro.html
+        this tutorial is followed in another repo, the ServletExperiments repo
 
 
     https://openliberty.io/guides/jpa-intro.html
@@ -40,3 +42,8 @@ There are several runners that I created, based on that tutorial
 If you want to run integration tests, you have 1 mvn runner that needs to contain failsafe:integration-test, or you can
 start the OpenLiberty server in dev mode, and then if you press enter in the console, it will run the tests automatically.
 (from what I noticed, you might need to press twice enter)
+
+
+https://developer.ibm.com/articles/why-cloud-native-java-developers-love-liberty/
+https://developer.ibm.com/articles/choose-the-right-java-runtime-for-the-job/
+https://developer.ibm.com/articles/6-reasons-why-open-liberty-is-an-ideal-choice-for-developing-and-deploying-microservices/
